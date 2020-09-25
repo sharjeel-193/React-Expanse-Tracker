@@ -1,0 +1,57 @@
+#add-new-transaction-div{
+    border: 2px solid darkslategray;
+    width: 95%;
+    border-radius: 30px;
+    margin: 0 auto;
+    /* width: 100%; */
+    padding: 0;
+    overflow: hidden;
+}
+form{
+    background-color: darkslategray;
+    box-shadow: inset -8px 13px 73px -6px rgba(0,0,0,0.75);
+    color: white;
+}
+.form-heading{
+    color: darkslategray;
+    margin: 1vw;
+}
+.form-control{
+    align-content: center;
+    
+}
+label {
+    display: inline-block;
+    margin: 1vh 0;
+    font-weight: bold;
+}
+input[type='text'],
+input[type='number'] {
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  display: block;
+  font-size: 3vh;
+  padding: 10px;
+  width: 50%;
+  margin: 0 auto;
+  
+}
+button{
+    margin: 2vh 0;
+    font-size: 2vh;
+    padding: 1vh;
+}
+button:hover{
+    color: wheat;
+    background-color:  rgba(79,79,101,1);
+    box-shadow: inset -8px 13px 73px -6px rgba(0,0,0,0.75);
+}
+
+@media only screen and (max-width:768px){
+    input[type='text'],
+    input[type='number']{
+        font-size: 3.5vw;
+        width: 70%;
+    } 
+}
+  
