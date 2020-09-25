@@ -21,6 +21,7 @@ export default function AdTransaction() {
         }
         idkey = idkey+1;
         addTransaction(newTransaction);
+        
     }
 
     return (
@@ -33,6 +34,7 @@ export default function AdTransaction() {
                     </label>
                     <input  type="text" 
                             id="description"
+                            name="desc"
                             value={description}
                             onChange={(e) => setDescription(e.target.value)}
                             placeholder="Detail of Transaction" 
@@ -45,6 +47,7 @@ export default function AdTransaction() {
                     </label>
                     <input  type="number" 
                             id="transactionamount"
+                            name="amount"
                             value={transactionAmount}
                             onChange={(e) => setTransactionAmount(e.target.value)}
                             placeholder="Value of Transaction"
